@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="utf-8">
+            <title>SSLCom</title>
+            <meta name="author" content="Sanya Aneja">
+            <link rel="stylesheet" href="styles.css">
+        </head>
+
+        <body>
+            <!-- main menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="purpose.html">Purpose</a></li>
+                    <li> <a href="members.html">Membership</a></li>
+                    <li> <a href="meetings.html">Meetings & Papers</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <!-- content -->
+
+                <h1>Contact</h1>
+                <div class = "contact">
+                    <p>Address: 38 Mappin Street, Workroom 2 (G11)</p>
+                    <p>Sheffield City Centre, Sheffield S1 4DT</p>
+                    
+                    <br>
+
+                    <p>Below you can find a form to leave feedback for your student staff committe.</p>
+                    <p>In the first textbox, please enter your mail id. In the second textbox enter like</p>
+                    <p>the specific committee member or a specific year group you would to reach</p>
+                    <p>out to. Finally, enter your comments and press the submit button. Thank you</p>
+                    <p>for contacting us!</p>
+                </div>
+
+                <!-- form -->
+
+                <form name="myform" action="https://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.php" method="POST">
+                    <input type="hidden" name="recipients"
+                        value="sanyaaneja10@gmail.com">
+                    <div>
+                        <label for="GET-mail">From:</label>
+                        <input id="GET-mail" type="text" name="email" maxlength="40" size="30">
+                    </div>
+
+                    <div>
+                        <label for="GET-name">To:</label>
+                        <input id="GET-name" type="text" name="name" maxlength="40" size="30">
+                    </div>
+
+                    <div class = "submit">
+                        <textarea name="comments" rows="5" cols="50" placeholder="Enter your comments here" ></textarea>
+                        <br>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </div>
+
+                </form>
+            </main>
+
+            <footer>
+                <!-- footer menu -->
+
+                <nav>
+                    <ul>
+                        <li><a href="accesibility.html">Accessibility</a></li>
+                        <li><a href="legal.html">Legal & Security</a></li>
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="testing.html">Testing</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SSLCom</title>
+        <meta name="author" content="Sanya Aneja">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- main menu -->
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="purpose.html">Purpose</a></li>
+                <li> <a href="members.html">Membership</a></li>
+                <li> <a href="meetings.html">Meetings & Papers</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- content -->
+            
+            <h1>Testing</h1>
+            
+            <div class = "left">
+                <h2>Optimisation</h2>
+                <p>Since the images used in the project aren't of high quality, there isn't a need to consider image loading times. </p>
+
+                <h2>Debugging</h2>
+                <p>The following includes the results for HTML and CSS Validator Results respectively:</p>
+                <div class = "row">
+                    <figure>
+                        <img src = "html_val.png">
+                        <figcaption>HTML Validator Results</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src = "css_val.png">
+                        <figcaption>Before: CSS Validator Results</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src = "css_val2.png">
+                        <figcaption>After: CSS Validator Results</figcaption>
+                    </figure>
+                </div>
+                <p>The above code encountered an error, as display was given the value flexbox, however after removing the line from the code, the validator reported no errors were found</p>
+
+                <h2>Browser testing</h2>
+                <p>Given below are the tests for the desktop and mobile layout. The dektop layout include tests on
+                    various browsers such as safari, chrome, and firefox.</p>
+                <div class = "row">
+                    <figure>
+                        <img src = "firefox.png" alt = "Desktop Browser Test for Firefox">
+                        <figcaption>Desktop Browser Test for Firefox</figcaption>
+                        <br>
+                        <img src = "chrome.png" alt = "Desktop Browser Test for Chrome">
+                        <figcaption>Desktop Browser Test for Chrome</figcaption>
+                        <br>
+                        <img src = "safari.png" alt="Desktop Browser Test for Safari">
+                        <figcaption>Desktop Browser Test for Safari</figcaption>
+                    </figure>
+
+                    <figure class = "mobile">
+                        <img src = "mobile.png" alt="Mobile Test">
+                        <figcaption>Mobile Test</figcaption>
+                    </figure>
+                </div>
+
+                <h2>Accessibility</h2>
+                <p>Below are the before and after screenshots of the WAVE Evaluation:</p>
+
+                <div class = "row">
+                    <figure>
+                        <img src = "before.png" alt = "Before: WAVE Evaluation">
+                        <figcaption>Before: WAVE Evaluation</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src = "after.png" alt = "After: WAVE Evaluation">
+                        <figcaption>After: WAVE Evaluation</figcaption>
+                    </figure>
+                </div>
+
+                <p>The WAVE Evaluation Tool helped me identify the mistakes in my code. 
+                    The 15 Alerts arose due to the images where the 'alt' attribute was the same for each image. 
+                    Further, 1 Error occurred due to not defining the language. 
+                    Hence, the oversights were resolved once I replaced the html tag with html lang = "en"
+                        and specified distinct 'alt' tags for each image. </p>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- footer menu -->
+
+            <nav>
+                <ul>
+                    <li><a href="accesibility.html">Accessibility</a></li>
+                    <li><a href="legal.html">Legal & Security</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="testing.html">Testing</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+
+</html>
